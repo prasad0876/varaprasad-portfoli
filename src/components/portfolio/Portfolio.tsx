@@ -522,7 +522,7 @@ function Timeline({
 
 function Experience() {
   return (
-    <Section id="experience" eyebrow="" title="">
+    <Section id="experience" eyebrow="Experience" title="Where I've built things">
       <Timeline
         icon={Briefcase}
         items={[
