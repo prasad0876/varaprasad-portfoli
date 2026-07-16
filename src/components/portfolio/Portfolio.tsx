@@ -24,6 +24,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
 import heroImg from "@/assets/hero-developer.png";
+import resumeAsset from "@/assets/resume.pdf.asset.json";
 
 const NAV = [
   { id: "home", label: "Home" },
@@ -208,7 +209,7 @@ function Hero() {
               </a>
             </Button>
             <Button asChild size="lg" variant="outline">
-              <a href="/resume.pdf" download>
+              <a href={resumeAsset.url} download="Setty_Varaprasad_Resume.pdf" target="_blank" rel="noopener noreferrer">
                 <Download className="mr-1.5 h-4 w-4" /> Download Resume
               </a>
             </Button>
