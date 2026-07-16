@@ -80,10 +80,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Setty Varaprasad — Full Stack Developer Portfolio" },
       { name: "description", content: "Portfolio of Setty Varaprasad, Computer Science Engineering student and Full Stack Developer. Projects, skills, and experience." },
       { name: "author", content: "Setty Varaprasad" },
-      { property: "og:title", content: "Setty Varaprasad — Full Stack Developer" },
-      { property: "og:description", content: "Computer Science Engineering student and Full Stack Developer building responsive web applications." },
+      { property: "og:title", content: "Setty Varaprasad — Full Stack Developer Portfolio" },
+      { property: "og:description", content: "Portfolio of Setty Varaprasad, Computer Science Engineering student and Full Stack Developer. Projects, skills, and experience." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Setty Varaprasad — Full Stack Developer Portfolio" },
+      { name: "twitter:description", content: "Portfolio of Setty Varaprasad, Computer Science Engineering student and Full Stack Developer. Projects, skills, and experience." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/acea4497-1a7e-483e-9c06-0da66212e065/id-preview-6f21517a--c4f47b4f-47c2-4cc8-b2a3-b0468b27ece7.lovable.app-1784205031560.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/acea4497-1a7e-483e-9c06-0da66212e065/id-preview-6f21517a--c4f47b4f-47c2-4cc8-b2a3-b0468b27ece7.lovable.app-1784205031560.png" },
     ],
     links: [
       {
