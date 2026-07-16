@@ -219,13 +219,13 @@ function Hero() {
             </Button>
           </div>
           <div className="mt-8 flex items-center gap-4 text-muted-foreground">
-            <a href="https://github.com/" aria-label="GitHub" className="hover:text-primary transition-colors">
+            <a href="https://github.com/prasad0876" aria-label="GitHub" className="hover:text-primary transition-colors">
               <Github className="h-5 w-5" />
             </a>
-            <a href="https://linkedin.com/" aria-label="LinkedIn" className="hover:text-primary transition-colors">
+            <a href="https://linkedin.com/in/varaprasadsetty/" aria-label="LinkedIn" className="hover:text-primary transition-colors">
               <Linkedin className="h-5 w-5" />
             </a>
-            <a href="mailto:hello@example.com" aria-label="Email" className="hover:text-primary transition-colors">
+            <a href="mailto:settyvaraprasad2005@gmail.com" aria-label="Email" className="hover:text-primary transition-colors">
               <Mail className="h-5 w-5" />
             </a>
           </div>
@@ -512,7 +512,7 @@ function Timeline({
 
 function Experience() {
   return (
-    <Section id="experience" eyebrow="Experience" title="Where I've built things">
+    <Section id="experience" eyebrow="" title="">
       <Timeline
         icon={Briefcase}
         items={[
@@ -622,10 +622,9 @@ function Contact() {
             </p>
             <div className="mt-6 space-y-4">
               {[
-                { icon: Mail, label: "Email", href: "mailto:setty@example.com", value: "setty@example.com" },
-                { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/", value: "linkedin.com/in/setty" },
-                { icon: Github, label: "GitHub", href: "https://github.com/", value: "github.com/setty" },
-                { icon: Code2, label: "LeetCode", href: "https://leetcode.com/", value: "leetcode.com/setty" },
+                { icon: Mail, label: "Email", href: "mailto:settyvaraprasad2005@gmail.com", value: "settyvaraprasad2005@gmail.com" },
+                { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/varaprasadsetty/", value: "linkedin.com/in/varaprasadsetty/" },
+                { icon: Github, label: "GitHub", href: "https://github.com/prasad0876", value: "github.com/prasad0876" },
               ].map((s) => {
                 const Icon = s.icon;
                 return (
@@ -684,7 +683,7 @@ function Footer() {
     <footer className="border-t border-border bg-background py-8">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-6 text-sm text-muted-foreground md:flex-row">
         <p>© 2026 Setty Varaprasad</p>
-        <p>Built with React and Tailwind CSS.</p>
+        <p></p>
       </div>
     </footer>
   );
