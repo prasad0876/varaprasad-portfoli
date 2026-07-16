@@ -219,10 +219,10 @@ function Hero() {
             </Button>
           </div>
           <div className="mt-8 flex items-center gap-4 text-muted-foreground">
-            <a href="https://github.com/prasad0876" aria-label="GitHub" className="hover:text-primary transition-colors">
+            <a href="https://github.com/prasad0876/" target="_blank" rel="noreferrer" aria-label="GitHub" className="hover:text-primary transition-colors">
               <Github className="h-5 w-5" />
             </a>
-            <a href="https://linkedin.com/in/varaprasadsetty/" aria-label="LinkedIn" className="hover:text-primary transition-colors">
+            <a href="https://www.linkedin.com/in/varaprasadsetty/" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="hover:text-primary transition-colors">
               <Linkedin className="h-5 w-5" />
             </a>
             <a href="mailto:settyvaraprasad2005@gmail.com" aria-label="Email" className="hover:text-primary transition-colors">
@@ -397,8 +397,8 @@ const PROJECTS = [
       "A responsive e-commerce experience with Firebase Authentication, a shopping cart, and a modern UI built with HTML, CSS, and JavaScript.",
     tags: ["HTML", "CSS", "JavaScript", "Firebase"],
     features: ["Responsive design", "Auth & cart", "Modern UI"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/prasad0876/futurefashion",
+    demo: "https://futurefashion.netlify.app/",
   },
   {
     title: "MovieFlix — Personalized Movie Recommendation System",
@@ -407,8 +407,18 @@ const PROJECTS = [
       "Backend APIs and a recommendation engine backed by MongoDB, exposing REST endpoints that power a personalized movie discovery experience.",
     tags: ["Node.js", "Express", "MongoDB", "REST"],
     features: ["REST APIs", "MongoDB", "Recommendation engine"],
-    github: "#",
+    github: "https://github.com/prasad0876/movieflix",
     demo: "#",
+  },
+  {
+    title: "Local Link",
+    role: "Full Stack Developer",
+    description:
+      "A community-focused platform connecting locals — built end-to-end with a modern web stack and deployed on Netlify.",
+    tags: ["React", "JavaScript", "Netlify"],
+    features: ["Responsive UI", "Deployed on Netlify", "Full stack"],
+    github: "https://github.com/prasad0876/local_link",
+    demo: "https://local-link-connect.netlify.app/",
   },
 ];
 
