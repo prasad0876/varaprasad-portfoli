@@ -1,0 +1,1 @@
+No project changes are needed. The image you just uploaded will not be used in the portfolio. I will not add it to the assets, the hero section, or any other component.
